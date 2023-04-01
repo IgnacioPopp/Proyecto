@@ -1,0 +1,108 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icono{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+header{
+    width: 100%;
+    background: lightslategray;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.encabezado{
+    width: 70%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin:auto;
+
+}
+header .logo {
+    color: beige;
+    font-size: 50px;
+    line-height: 180px;
+    float: left;
+    font-family: 'Playfair Display', serif;
+  
+
+    
+}
+
+/* header .icono{
+    display: inline-flex;
+    flex:auto
+   
+    
+} */
+
+header nav{
+    float: right;
+    line-height: 180px;
+
+}
+
+header nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    line-height: normal;
+    font-size: 16px;
+    -webkit-transition: all 500ms ease;
+    -o-transition:all 500ms ease ;
+    transition: all 500ms ease;
+    border-radius: 50px;
+    
+}
+
+header nav a:hover{
+    background: paleturquoise;    
+}
+
+.header2 {
+    position: fixed;
+    height: 100px ;
+
+}
+
+.header2 .logo{
+    line-height: 100px;
+    font-size: 30px;
+}
+.header2 nav{
+    line-height: 100px;
+}
+
+main video{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 750px) {
+    header .logo,
+    header nav{
+        width:100%;
+        text-align:center;
+        line-height:100px;
+    }
+    .header2 {
+        height: auto;
+    }
+    .header2 .logo{
+        line-height: 50px;
+    }
+}
